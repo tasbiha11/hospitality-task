@@ -17,7 +17,7 @@ const Rooms = () => {
                         <img className='room-img' src={doubleroom} alt="double room" />
                         <div className='room'>
                             <p>2 Beds • 50sqm • Parking</p>
-                            <h3>Double Room</h3>
+                            <h3>Standard Room</h3>
                             <p>From <span>$300</span>/Night</p>
                         </div>
                         <button>Book Now <BsFillCartCheckFill /></button>
@@ -28,7 +28,7 @@ const Rooms = () => {
                         <img className='room-img' src={familyroom} alt="family room" />
                         <div className='room'>
                             <p>2 Beds • 50sqm • Parking</p>
-                            <h3>Family Room</h3>
+                            <h3>Premium Room</h3>
                             <p>From <span>$300</span>/Night</p>
                         </div>
                         <button>Book Now <BsFillCartCheckFill /></button>

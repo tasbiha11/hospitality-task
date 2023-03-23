@@ -1,6 +1,5 @@
 import React from 'react';
 import './News.css';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import news2 from '../../assets/news2.jpg';
@@ -11,10 +10,10 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const News = () => {
     return (
-        <div className='news-top'>
+        <div className='news-top mt-5 mb-5'>
             <h4>HOTEL BLOGS</h4>
             <h2>Our Daily News</h2>
-            <div className='row g-5'>
+            <div className='row g-5 mt-2'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={news3} />

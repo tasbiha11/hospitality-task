@@ -9,10 +9,10 @@ import './Facilities.css';
 
 const Facilities = () => {
     return (
-        <div className='top' href="services">
+        <div className='top'>
             <h4>OUR SERVICE</h4>
             <h2>Hotel Facilities</h2>
-            <div className='row justify-content-center mb-5 mt-3'>
+            <div className='row g-5 mt-2'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
@@ -47,7 +47,7 @@ const Facilities = () => {
                     </Card>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row g-5 mt-2'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>

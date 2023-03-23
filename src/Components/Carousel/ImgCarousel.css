@@ -1,5 +1,6 @@
 .carousel-inner>.item>img,
 .w-100 {
     width: 100% !important;
-    height: 85vh;
+    height: 80vh;
+    size: contain;
 }

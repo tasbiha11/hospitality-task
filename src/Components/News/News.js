@@ -7,13 +7,14 @@ import news2 from '../../assets/news2.jpg';
 import news3 from '../../assets/news3.jpg';
 
 import { FaCommentAlt } from 'react-icons/fa';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const News = () => {
     return (
-        <div className='container'>
+        <div className='news-top'>
             <h4>HOTEL BLOGS</h4>
             <h2>Our Daily News</h2>
-            <div className='row'>
+            <div className='row g-5'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={news3} />
@@ -23,7 +24,7 @@ const News = () => {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Read More</Button>
+                            <p className='read'>Read More <BsFillArrowRightCircleFill /></p>
                         </Card.Body>
                     </Card>
                 </div>
@@ -36,7 +37,7 @@ const News = () => {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Read More</Button>
+                            <p className='read'>Read More <BsFillArrowRightCircleFill /></p>
                         </Card.Body>
                     </Card>
                 </div>
@@ -49,7 +50,7 @@ const News = () => {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Read More</Button>
+                            <p className='read'>Read More <BsFillArrowRightCircleFill /></p>
                         </Card.Body>
                     </Card>
                 </div>

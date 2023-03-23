@@ -1,0 +1,29 @@
+.room-top {
+    background-color: #36454F;
+    max-width: 100%;
+    height: auto;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.room-img {
+    height: 364px;
+    display: block;
+    width: 100%;
+}
+
+.room {
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: aliceblue;
+}

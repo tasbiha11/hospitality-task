@@ -10,7 +10,7 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const News = () => {
     return (
-        <div className='news-top mt-5 mb-5'>
+        <div className='news-top mt-1 mb-1'>
             <h4>HOTEL BLOGS</h4>
             <h2>Our Daily News</h2>
             <div className='row g-5 mt-2'>

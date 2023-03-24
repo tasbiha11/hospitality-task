@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import './Reservation.css';
 
 const Reservation = () => {
     return (
-        <div className='container mt-5 mb-5'>
+        <div className='container mt-5 mb-1'>
             <h3>Booking Form</h3>
             <h5>Have a luxurious stay at our hotel</h5>
             <Form>

@@ -12,7 +12,7 @@ const Facilities = () => {
         <div className='top'>
             <h4>OUR SERVICE</h4>
             <h2>Hotel Facilities</h2>
-            <div className='row g-5 mt-2'>
+            <div className='row g-5 mt-1'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>

@@ -5,7 +5,7 @@ import swim from '../../assets/swim.jpg';
 
 const About = () => {
     return (
-        <div className='row g-5 m-5'>
+        <div className='row g-5 m-1'>
             <div className='col-lg-6 col-md-6 col-sm-12'>
                 <h4>WELCOME TO LUXURY</h4>
                 <h2>Our Hotel has been best for 20 years</h2>
